@@ -1,0 +1,29 @@
+/* Estilos generales para el contenedor de detalles del ítem */
+
+body {
+    background-color: #0a0a0a; /* Fondo oscuro */
+    color: #e0e0e0; /* Color de texto claro */
+}
+
+.container {
+    background-color: #1a1a1a; /* Fondo de contenedor oscuro */
+    border: 1px solid #333; /* Borde más claro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+h1, h2, h3 {
+    color: #ffffff; /* Color de encabezados */
+}
+
+p {
+    color: #e0e0e0; /* Color de párrafos */
+}
+
+/* Otros estilos específicos para el componente */
+.button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color de texto del botón */
+}
+
+/* ... otros estilos existentes ... */

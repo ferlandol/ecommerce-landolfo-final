@@ -1,0 +1,17 @@
+.custom-footer {
+    color: var(--light-color);
+    background-color: var(--dark-color);
+}
+
+.footer-link {
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(--highlight-color);
+}
+
+.footer-link:hover svg {
+    fill: var(--highlight-color);
+}

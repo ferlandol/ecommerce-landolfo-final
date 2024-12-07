@@ -1,0 +1,21 @@
+.item-container {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border: 1px solid #404040;
+}
+
+.card-body {
+    background-color: #2d2d2d;
+}
+
+.custom-btn {
+    background-color: #404040;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #555555;
+    color: #ffffff;
+}

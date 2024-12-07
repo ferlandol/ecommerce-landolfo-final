@@ -1,0 +1,11 @@
+.input-small {
+    width: 4ch;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #2c2c2c;
+}
+
+.btn-outline-secondary:active {
+    background-color: #1a1a1a !important;
+}
