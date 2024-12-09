@@ -2,13 +2,16 @@ import { initializeApp } from 'firebase/app'
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-    appId: import.meta.env.VITE_FIREBASE_APP_ID
-};
+    apiKey: "AIzaSyCNwm66HYo1rz0ltc0HW-ml-jIwIBDkMUU",  
+    authDomain: "ecommerce-landolfo-90e27.firebaseapp.com",  
+    databaseURL: "https://ecommerce-landolfo-90e27-default-rtdb.firebaseio.com",  
+    projectId: "ecommerce-landolfo-90e27",  
+    storageBucket: "ecommerce-landolfo-90e27.firebasestorage.app",  
+    messagingSenderId: "830900465209",  
+    appId: "1:830900465209:web:20bc6edbc9dd90fa41a7e8",  
+    measurementId: "G-5C22KNBJST"  
+  };
+  
 
 const app = initializeApp(firebaseConfig);
 
