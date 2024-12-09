@@ -1,5 +1,5 @@
 [build]
   command = "npm run build"
   publish = "/"
-  index = "/utils/main.jsx"
+  index = "/src/main.jsx"
   
