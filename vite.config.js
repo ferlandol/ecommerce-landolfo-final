@@ -7,5 +7,5 @@ export default defineConfig({
         outDir: 'build', // Change this if needed
     },
     plugins: [react()],
-    base: './'
+    base: 'src/main.jsx'
 })
